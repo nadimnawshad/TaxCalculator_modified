@@ -1,0 +1,528 @@
+@import url(https://fonts.googleapis.com/css?family=Vollkorn|Roboto);
+body {
+    font-family: 'Lato', sans-serif;
+    background: #454d55;
+    color: #fff;
+}
+.signUpForm_new{
+    display: block;
+}
+.button{
+    color: #ffffff !important;
+    padding: 10px 20px;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: #454d55;
+}
+.default_button, .button:hover,.admin-dashboard-content:hover{
+    color: #c55a11 !important;
+    background-color: #001a1a;
+    border: 1px solid #c55a11;
+    cursor: pointer !important; 
+    transition: 0.3s;
+}
+.dropdown-body a:hover{
+    color: #c55a11 !important;
+    background-color: #001a1a !important;
+    cursor: pointer !important; 
+    transition: 0.3s !important;
+}
+span, .line{
+    width: 100%;
+    height: 2px;
+    background: transparent;
+    display: block;
+}
+.line{
+    background-color: #000;
+}
+a{
+    color: #fff !important;
+    text-decoration: underline;
+}
+a:hover{
+    color: #c55a11 !important;
+    text-decoration: underline !important;
+    cursor: pointer !important; 
+    transition: 0.3s;
+}
+.form_style input,.form_style textarea,.form_style option{
+    padding: 7px 10px;
+    width: 100%;
+}
+
+.form_style label, .form_style p{
+    font-size: 16px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    color: #fff;
+}
+.form_style a{
+    margin-top: 10px;
+    font-style: italic;
+}
+.form_style a:hover, .cancel:hover{
+    color: #c55a11 !important;
+    cursor: pointer !important;    
+    transition: 0.3s;
+}
+.popUp {
+    position: fixed;
+    z-index: 1;
+    padding-top: 20px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    background-color: #000000ad;
+ }
+.popUp-content {
+    background-color: #000000d4;
+    margin: auto;
+    padding: 20px 10px 0px 10px;
+    border: 1px solid #888;
+    width: 35%;
+    height: auto;
+    padding-bottom: 40px;
+}
+.notification_popup{
+
+}
+.notification_content{
+    
+margin-left: auto !important;
+    
+margin-right: 0;
+}
+.cancel{
+    margin-left: auto;
+    padding: 15px 20px 0px 0px;
+    font-size: 25px;
+    background: none;
+    width: fit-content;
+    color: #fff;
+}
+
+.submitButton{
+    margin-top: 15px;
+}
+
+.errorMsg{
+    color: #ff0505 !important;
+    font-style: italic;
+}        
+.ShortPass,.WeakPass,.GoodPass,.StrongPass{
+    width: 100%;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 5px;
+    height: 3px;
+    margin-bottom: 15px !important;
+}
+.ShortPass {   
+    background-color: #dc3545; 
+    color: #dc3545 !important;
+    font-style: italic;   
+}  
+.WeakPass {    
+    background-color: #ffc107;  
+    color: #ffc107 !important;   
+    font-style: italic;   
+}  
+.GoodPass {  
+    background-color: #d39e00;   
+    color: #d39e00 !important;  
+    font-style: italic;   
+}  
+.StrongPass {  
+    background-color: #28a745;   
+    color: #28a745 !important;  
+    font-style: italic;   
+}
+
+.time_date{
+    margin: auto;
+    padding: 15px 0px;
+}
+
+
+/**********************************************/
+
+.logo-img{
+    max-width: 45px;
+    margin-bottom: 15px;
+}
+.nav-item,.dropdown-header {
+    padding-left: 40px;
+}
+.dropdown-header{
+    font-size: 16px;
+    padding: 0px;
+}
+.dropdown-body{
+    background-color: #003b3b;
+    border: 1px solid #c55a11;
+    border-radius: 5%;
+}
+
+/**********************************************/
+.banner{
+    margin-top: 15px;
+}
+.banner-image{
+    margin: 30px 0;
+    vertical-align: middle;
+}
+.banner-image img{}
+.banner .banner-content {
+    padding-top: 55px;
+    text-align: end;
+    color: #fff;
+}
+.signUpBanner{
+    margin-top: 21%;
+    vertical-align: bottom !important;
+}
+
+
+/**********************************************/
+.feature{
+    margin-top: 50px;
+}
+.feature-block{
+    padding-left: 0;
+}
+.feature-top-contain{
+    text-align: center;
+    padding-bottom: 30px;   
+}
+.service{
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+}
+.service span{
+    margin: auto;
+    text-align: center;
+    font-size: 42px;
+    color: #f9f6f6;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#48baff+50,5fc3ff+50 */
+    /* background: rgb(72,186,255); */ /* Old browsers */
+    background: -moz-linear-gradient(to right, rgb(81 128 69) 50%,rgb(124 199 103) 50%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(to right, rgb(81 128 69) 50%,rgb(124 199 103) 50%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgb(0 94 94) 50%,rgb(0 34 34) 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#48baff', endColorstr='#5fc3ff',GradientType=1); /* IE6-9 */
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+    display: block;
+}
+.service span i{}
+.service h3{
+    margin: 30px 0 10px;
+    font-size: 22px;
+    color: #fff;
+}
+.service p{
+    font-size: 15px;
+}
+
+
+/**********************************************/
+
+footer ul{
+}
+footer ul li{
+    padding: 5px;
+    list-style-type: none;
+}
+footer ul li a {
+    width: 40px;
+    height: 40px;
+    display: block;
+    line-height: 40px;
+    padding: 0 !important;
+}
+footer ul li a:hover{
+    color: #fff !important; 
+}
+
+/*******************************************/
+
+
+.signUp_logIn_Button{
+    list-style-type: none;
+    padding-left: 10px;
+}
+.signUpForm{
+    display: none;
+}
+
+.notification_section{
+
+}
+
+/***************************************************/
+.profile-img {
+    width: -webkit-fill-available;
+    border-radius: 5%;
+}
+.profile-short{
+    margin-top: 3px;
+}
+.profile-short p{
+    margin-bottom: 0;
+}
+.dashboard_header_menu{
+    translate: -50%;
+}
+.dashboard_header_menu li{
+    padding-left: 20px;
+}
+.dashboard_header_menu li a span{
+    font-size: 30px;
+}
+.dashboard_header_menu li a p{
+    font-size: 16px;
+}
+.dashboard_header_menu li p{
+    color: #fff !important;
+}
+.dashboard_guide_text{
+    margin-top: 31px;
+}
+.nav-item:hover{
+    color: #c55a11;
+}
+.notification_icon_guideline_text{
+    margin-top: 15px;
+}
+.dashboard-content{
+    color: #fff !important;
+    border: 2px solid #000;
+}
+/*.dashboard-content:hover{
+    cursor: pointer;
+    color: #000 !important;
+    transition: 0.3s;
+}*/
+
+.Admin-headline{
+    color: #c55a11;
+}
+.admin-logout{
+    translate: 0px -20px;
+}
+/***********************************************************/
+
+.search_button{
+    padding: 6px 10px;
+}
+
+
+/***************************************************/
+.file-upload-wrapper{
+    text-align: center;
+    padding:    3%;
+    border: thin solid #ffffff73;
+}
+.file-upload-wrapper input{
+    display: none;
+}
+.file-upload-wrapper input.highlight {
+    border-color: #c55a11;
+}
+.drag-area{
+    cursor: pointer;
+    border: 1px dashed #FFF;
+    padding: 5px 0px 0px;
+}
+.file-upload-wrapper label{
+    cursor: pointer;
+}
+.file-upload-wrapper label span{
+    font-size: 2rem;
+}
+.dropBox-area{
+    
+padding: 15px;
+}
+.preview-img{
+    width: 100%; 
+    height: 90%;
+}
+.active{
+    border: 1px dashed #c55a11 !important;
+}
+
+/****************************************************/
+
+table{
+    margin: auto;
+    border: 1px solid #c55a11;
+}
+table thead tr th{
+    color: #c55a11;
+} 
+table tbody tr{
+    border: 1px solid #c55a11;
+}   
+table thead tr th, table tbody tr td{
+    padding: 5px 20px;
+}
+
+#table{
+    margin: 10px 0px 10px 10px;
+}
+#table tr td{
+    color: #30ed8e;
+    cursor: pointer;
+}
+.new_cultivation{
+    display: none;
+}
+
+
+/**************************************************************/
+
+.plant_details{
+    border: 1px solid #c55a11;
+    padding-bottom: 15px;
+}
+.plant_details table, .plant_details table tbody tr{
+    margin: 0;
+    border: none !important;
+}
+.plant_details table tbody tr{
+
+}
+.plant_name td{ 
+    border-bottom: thin solid #ffffff73;
+
+}
+.change_plant{
+
+}
+.change_plant label{
+    
+padding: 7px;
+}
+.change_plant input[type=text]{
+    
+}
+.change_plant button{
+    
+margin: 0px 0px 7px 20px;
+    
+padding: 0px 15px;
+}
+
+.profile-edit{
+    translate: 80px -24px;
+    background: #c55a11;
+    padding: 10px 6px;
+    border-radius: 25%;
+    width: fit-content;
+    cursor: pointer;
+    border: 1px solid #fff;
+}
+.profile-edit:hover{
+    background: #001a1a;
+    color: #ffffff;
+}
+.profile-edit-link:hover{
+    color: #fff !important;
+}
+.profile-edit p{
+    translate: 0px -9px;
+    padding: 0;
+    margin: auto;
+    width: fit-content;
+    font-size: 12px !important;
+}
+
+.filtering{
+    translate: -20px 5px;
+}
+/******************************************/
+
+.notification_section{
+    display: none;  
+}
+.guide_box{
+    background: #c55a11;
+    translate: 45px -9px;
+    padding: 7px;
+    border-radius: 25%;
+    width: fit-content;
+    cursor: pointer;
+    border: 1px solid #fff;
+}
+.guide_text_box{
+    translate: 0px -9px;
+    padding: 0;
+    margin: auto;
+    width: fit-content;
+    font-size: 12px !important;
+}
+#notification_table{
+
+}
+#notification_table tr td{
+    color: #fff;
+    
+}
+#notification_table tr{
+    cursor: pointer;
+}
+.diseas_leaf_img{
+    height: fit-content;
+}
+
+.sensorData span{
+    width: auto;
+}
+
+.dashboardMenu p{
+    padding: .5rem 1rem;
+    margin: 0;
+}
+.class-schedule p, .level-jobs p{
+    padding: 0;
+}
+.signal-circle p{
+    font-size: 20px;
+}
+.class-schedule button{
+    margin: 0;
+    padding: 5px 20px;
+}
+.class-off{
+    color: red;
+}
+.class-next{
+    color: yellow;
+}
+.class-running{
+    color: green;
+}
+.job-section, .class-schedule-section{
+    margin: 5px;
+    border: 1px solid #c55a11;
+}
+.level-jobs img{
+    width: 55px;
+    translate: -5px 8px;
+}
+
+.chapter-list{
+    width: 100%;
+    border: 1px solid #c55a11;
+    margin: 5px;
+    text-align: left;
+}
